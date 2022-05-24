@@ -52,7 +52,7 @@ cv::Point2f recursive_bezier(const std::vector<cv::Point2f> &control_points, flo
 
 Now, we can draw a Bezier curve.
 
-<img src="E:\CG\Games\GAMES101\study report\Week2\pic\my_bezier_curve.png" align=mid width="70%" height="70%"/>
+![my_bezier_curve](https://user-images.githubusercontent.com/68177870/169929110-dbe02e04-a934-4fcd-93aa-60aeb00d41b5.png)
 
 But we can see that the curve has obvious aliasing, so we need to anti-aliasing it.
 
@@ -91,17 +91,6 @@ We sample the four nearest pixels around the shading point and color them accord
 
 We compare the Bezier curves before and after the anti-aliasing.
 
-
-<center>
-	<img src="E:\CG\Games\GAMES101\study report\Week2\pic\my_bezier_curve.png" width="40%" />
-	&emsp;&emsp;&emsp;&emsp;
-	<img src="E:\CG\Games\GAMES101\study report\Week2\pic\my_bezier_curve_Ati.png" width="40%" />
-	<br/>
-	<font color="AAAAAA">Before</font>
-	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-	<font color="AAAAAA">After</font>
-</center>
+![my_bezier_curve_Ati](https://user-images.githubusercontent.com/68177870/169929129-db871730-eedd-4943-980e-d095d1f51584.png)
 
 We can see that the anti-aliasing effect is remarkable.
