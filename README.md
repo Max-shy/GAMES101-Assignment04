@@ -1,4 +1,4 @@
-# GAMS101-Assignment04
+# GAMES101-Assignment04
 Draw a Bezier Curve
 
 ## Assignment 04 
